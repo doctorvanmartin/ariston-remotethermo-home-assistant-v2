@@ -1,4 +1,7 @@
 # Ariston NET remotethermo integration for Home Assistant
+
+A FORK OF THE ORIGINAL, WORKING WITH HACS. I will made changes to support more working modes and others.
+
 Thin integration is a side project which works only with 1 zone climate configured. It logs in to Ariston website (https://www.ariston-net.remotethermo.com) and fetches/sets data on that site.
 You are free to modify and distribute it. It is distributed 'as is' with no liability for possible damage.
 Cimate has presets to switch between `off`, `summer` and `winter` in order to be able to control boiler from one entity.
@@ -7,7 +10,7 @@ Cimate has presets to switch between `off`, `summer` and `winter` in order to be
 If you like this app, please consider donating some sum to your local charity organizations or global organization like Red Cross. I don't mind receiving donations myself (you may conact me for more details if you want to), but please consider charity at first.
 
 ## Integration slow nature
-Intergation uses api developed by me based on assumptions and test results. It continiously fetches the data from the site with periods determined during tests to have not as many interference with other applications (like Ariston NET application or Google Home application) but be quick enough to get information as soon as possible.
+Intergation uses api developed by chomupashchuk based on assumptions and test results. It continiously fetches the data from the site with periods determined during tests to have not as many interference with other applications (like Ariston NET application or Google Home application) but be quick enough to get information as soon as possible.
 You may read more about API (`ariston.py`) on the website: https://pypi.org/project/aristonremotethermo/.
 
 ## Integration was tested on and works with:
